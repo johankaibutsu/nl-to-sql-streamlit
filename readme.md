@@ -93,6 +93,10 @@ The application will be available at `http://localhost:8501`
 2. Ask a simple SQL query like: 'How many employees are in each department?'
 3. Show the generated SQL and the result table.
 
+
+https://github.com/user-attachments/assets/9ebdeab7-2694-4ea5-834e-f0cb5631f7ef
+
+
 ## Suggestions for Improving System Effectiveness
 ### Advanced SQL Validation & Generation:
 1. LLM to Structured Output: Instead of generating raw SQL, instruct the LLM to output a JSON object representing the query ({ "select_columns": [...], "table": "...", "joins": [...], "filters": [...] }). The Python code would then safely construct the SQL query from this JSON using a library like pypika, completely eliminating the risk of SQL injection.
