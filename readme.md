@@ -39,6 +39,7 @@ pip install -r requirements.txt
 # For macOS with Homebrew:
 brew install PostgreSQL
 brew services start postgresql
+```
 
 ### 4. Create Database and Enable Extensions
 
